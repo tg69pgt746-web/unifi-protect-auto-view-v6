@@ -1,0 +1,40 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "UniFi Protect Auto-View Setup",
+        "description": "All UniFi Protect cameras, doorbells, and AI person sensors are discovered automatically. Choose your optional display targets below.",
+        "data": {
+          "trigger_on_ring": "Trigger on Doorbell Rings",
+          "trigger_on_person": "Trigger on Person Detections",
+          "enable_popup": "Auto-Popup on Open Dashboards (if Browser Mod is installed)",
+          "media_players": "Auto-Cast to TVs / Nest Hubs (Optional)",
+          "notify_services": "Mobile Notify Services, comma-separated (e.g., notify.mobile_app_iphone)",
+          "turn_off_after": "Turn cast players off afterwards (only if they were idle before)",
+          "timeout": "Auto-Close Display Timeout (seconds)",
+          "enable_viewer": "Show a 'Cameras' viewer panel in the sidebar"
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "UniFi Protect Auto-View is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "UniFi Protect Auto-View Options",
+        "data": {
+          "trigger_on_ring": "Trigger on Doorbell Rings",
+          "trigger_on_person": "Trigger on Person Detections",
+          "enable_popup": "Auto-Popup on Open Dashboards (if Browser Mod is installed)",
+          "media_players": "Auto-Cast to TVs / Nest Hubs (Optional)",
+          "notify_services": "Mobile Notify Services, comma-separated (e.g., notify.mobile_app_iphone)",
+          "turn_off_after": "Turn cast players off afterwards (only if they were idle before)",
+          "timeout": "Auto-Close Display Timeout (seconds)",
+          "enable_viewer": "Show a 'Cameras' viewer panel in the sidebar"
+        }
+      }
+    }
+  }
+}
